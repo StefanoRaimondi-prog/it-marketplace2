@@ -1,6 +1,6 @@
 /* Navbar principale */
 .navbar {
-    background: linear-gradient(135deg, #b0a4dc, #c7e3c7); /* Sfumato viola-verde chiaro */
+    background: linear-gradient(135deg, #c4bae4, #c7e3c7); /* Sfumato viola-verde chiaro */
     padding: 8px 30px; /* Ridotto il padding per una navbar più sottile */
     display: flex;
     justify-content: space-between; /* Allinea logo e menu separati */

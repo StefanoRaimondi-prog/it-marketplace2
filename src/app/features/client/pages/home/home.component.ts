@@ -14,7 +14,8 @@ export class HomeComponent implements OnInit {
   constructor(private serviceService: ServiceService) {}
 
   ngOnInit(): void {
-    this.services = this.serviceService.getServices();
+    console.log ("test")  
+     this.services = this.serviceService.getServices();
     console.log(this.services);  // 👈 Questo è il log che ci aiuta a verificare i dati
   }
 }
